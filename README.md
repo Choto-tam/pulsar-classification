@@ -120,7 +120,7 @@ clf.predict([new_star])
 ```
 ![Изображение](images/array.png)
 
-**KNN**
+**Метод k-ближайших соседей (k-NN)**
 ```python
 from sklearn.neighbors import KNeighborsClassifier
 # Создадим объект класса KNeighborClassifier
