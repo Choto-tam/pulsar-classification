@@ -41,5 +41,5 @@ neigh = KNeighborsClassifier(n_neighbors = 1, p = 2)
 neigh.fit(X, y)
 
 print('Предсказанный класс: ', neigh.predict([new_star])[0])
-print('Растояние до ближайшей звезды: ', neigh.kneighbors([new_star])[0][0][0])
+print('Расстояние до ближайшей звезды: ', neigh.kneighbors([new_star])[0][0][0])
   
